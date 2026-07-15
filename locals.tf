@@ -6,6 +6,6 @@ locals {
 
   mod_tags = merge(
     var.base_tags,
-    { manager = "Oliver Walsh (CompMod v1.0.1)"}
+    { manager = "Oliver Walsh v1.0.2"}
   )
 }
