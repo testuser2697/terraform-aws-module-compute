@@ -1,8 +1,8 @@
 resource "terraform_data" "module_version" {
   input = {
     module  = "compute"
-    version = "1.0.0"
-    change  = "compute module version 1.0.0 release"
+    version = "1.0.1"
+    change  = "compute module version 1.0.1 release"
   }
 }
 
